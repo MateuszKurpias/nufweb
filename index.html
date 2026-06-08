@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NUFENEN – meble premium na wymiar. Kuchnie, szafy, zabudowy i meble łazienkowe według Twojego projektu. Okucia Blum, maszyny HOMAG i OTT. Realizacja w 6–8 tygodni. Salony w Kielcach i Opolu.">
+    <meta name="keywords" content="meble na wymiar, kuchnie na wymiar, szafy na wymiar, meble premium, NUFENEN, Kielce, Opole">
+    <meta name="author" content="NUFENEN INTERIORS">
+    <meta property="og:title" content="NUFENEN | Meble Premium na Wymiar">
+    <meta property="og:description" content="Meble premium na wymiar. Kuchnie, szafy, zabudowy. Realizacja 6–8 tygodni. Salony w Kielcach i Opolu.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.nufenen.pl">
+    <title>NUFENEN | Meble Premium na Wymiar</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">NUFENEN</div>
+        <div class="nav-right">
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-link" data-i18n="nav.home">Home</a></li>
+            <li><a href="#about" class="nav-link" data-i18n="nav.about">O nas</a></li>
+            <li><a href="#services" class="nav-link" data-i18n="nav.services">Usługi</a></li>
+            <li><a href="#projects" class="nav-link" data-i18n="nav.projects">Projekty</a></li>
+            <li><a href="#showrooms" class="nav-link" data-i18n="nav.showrooms">Salony</a></li>
+            <li><a href="#partner-forma" class="nav-link" data-i18n="nav.partner">Partner.forma</a></li>
+            <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Kontakt</a></li>
+        </ul>
+        <div class="lang-switcher" id="lang-switcher" role="group" aria-label="Język / Language">
+            <button class="lang-btn" data-lang="pl" type="button">PL</button>
+            <button class="lang-btn" data-lang="en" type="button">EN</button>
+            <button class="lang-btn" data-lang="de" type="button">DE</button>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="images/hero-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 data-i18n="hero.title">Klasa. Sama w sobie.</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Meble Premium na Wymiar | Od 2020 roku</p>
+        </div>
+        <div class="scroll-indicator" data-i18n="hero.scroll">Przewiń w dół</div>
+    </section>
+
+    <!-- Fullscreen Statement -->
+    <section class="fullscreen-section">
+        <img src="images/sections/about.jpg" alt="Wnętrze salonu NUFENEN – kuchnia premium">
+        <div class="section-overlay"></div>
+        <div class="section-content">
+            <h2 data-i18n="about.title">5 lat doświadczenia. Setki zadowolonych klientów.</h2>
+            <p data-i18n="about.text">Od 2020 roku realizujemy projekty, które łączą perfekcyjne wykonanie z ponadczasowym designem. Każde zlecenie traktujemy jako inwestycję w Państwa przestrzeń i codzienne zadowolenie.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="services-header">
+            <h2 data-i18n="services.title">Nasze usługi</h2>
+            <p data-i18n="services.subtitle">Kompleksowa obsługa od projektu przez produkcję aż po montaż</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-number">01</div>
+                <h3 data-i18n="services.1.title">Kuchnie</h3>
+                <p data-i18n="services.1.text">Od funkcjonalnych kuchni deweloperskich po luksusowe zabudowy premium — realizujemy projekty w każdym stylu i budżecie. Pracujemy z laminatami, lakierami, fornirami, kamieniem, szkłem i spiekami. Okucia Blum, precyzyjne dopasowanie, perfekcyjne wykończenie. Twoja kuchnia, Twoje zasady.</p>
+            </div>
+            <div class="service-item">
+                <div class="service-number">02</div>
+                <h3 data-i18n="services.2.title">Meble na wymiar</h3>
+                <p data-i18n="services.2.text">Szafy, garderoby, zabudowy salonowe, meble łazienkowe — realizujemy każdy projekt według Państwa pomysłu i wymiarów. Elastyczność w projektowaniu, precyzja w wykonaniu. Jeśli potrafisz to wymyślić, my potrafimy to zbudować. Bez kompromisów w jakości.</p>
+            </div>
+            <div class="service-item">
+                <div class="service-number">03</div>
+                <h3 data-i18n="services.3.title">Projektowanie</h3>
+                <p data-i18n="services.3.text">Projekty 3D, wizualizacje, optymalizacja funkcjonalności — wspieramy Cię na każdym etapie. Nasz zespół projektowy pomaga przekuć pomysł w realną przestrzeń. Konsultacje ergonomiczne, dobór materiałów, dostęp do biblioteki rozwiązań konstrukcyjnych. Projektujemy razem!</p>
+            </div>
+            <div class="service-item">
+                <div class="service-number">04</div>
+                <h3 data-i18n="services.4.title">Obsługa korporacyjna</h3>
+                <p data-i18n="services.4.text">Hotele, restauracje, biura, szpitale, supermarkety — realizujemy projekty komercyjne na skalę. Wyposażenie dekoracyjne, ścianki sanitarne, zabudowy funkcjonalne. Terminowość, jakość wykonania, serwis posprzedażowy. Doświadczenie w obsłudze dużych kontraktów i podmiotów publicznych.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="technology-video-section" id="about">
+        <video autoplay loop muted playsinline class="technology-video">
+            <source src="images/sections/technology.mp4" type="video/mp4">
+            <source src="images/sections/technology.webm" type="video/webm">
+        </video>
+        <div class="technology-overlay"></div>
+        <div class="technology-content">
+            <h2 data-i18n="tech.title">Technologia spotyka rzemiosło</h2>
+            <p data-i18n="tech.p1">Jesteśmy producentem mebli premium w rozsądnym przedziale cenowym. Dbałość o standardy jakości to fundament naszego biznesu — dlatego wyposażamy każdy mebel wyłącznie w okucia Blum w najlepszych konfiguracjach.</p>
+            <p data-i18n-html="tech.p2">Produkcja odbywa się na maszynach światowej klasy: <strong>HOMAG i OTT</strong>. Precyzja obróbki CNC łączy się z doświadczeniem naszej kadry — ludzi, którzy o meblach wiedzą naprawdę dużo.</p>
+            <p data-i18n="tech.p3">Tworzymy meble ze wszystkich materiałów premium: laminaty, lakiery, forniry, kamienie, spieki, szkło. Realizujemy projekty według Państwa wymiarów i wizji — od kuchni deweloperskich po luksusowe zabudowy na wymiar.</p>
+            <p data-i18n="tech.p4">Kompleksowa obsługa to nasz standard: projekty, produkcja, transport i profesjonalny montaż. Średni czas realizacji: 6–8 tygodni. Jeden zespół, pełna odpowiedzialność, terminowość gwarantowana.</p>
+        </div>
+    </section>
+
+    <!-- Design Philosophy Section -->
+    <section class="philosophy-section">
+        <img src="images/sections/philosophy.jpg" alt="Luksusowa szafa na wymiar NUFENEN" class="philosophy-image">
+        <div class="philosophy-overlay"></div>
+        <div class="philosophy-content">
+            <h2 data-i18n="phil.title">Projektujemy razem</h2>
+            <p data-i18n="phil.p1">Zapytamy, wysłuchamy, doradzimy, wykonamy. Holistycznie zadbamy o inwestycję — chcemy być razem z Tobą przez cały proces.</p>
+            <p data-i18n="phil.p2">W procesie projektowania łączymy Twoją wizję z naszym doświadczeniem i technologią, aby stworzyć przestrzeń idealnie dopasowaną do Twoich potrzeb.</p>
+        </div>
+    </section>
+
+    <!-- PROJEKTY SECTION -->
+    <section class="projects-section" id="projects">
+        <div class="projects-header">
+            <h2 data-i18n="projects.title">Niektóre nasze realizacje i projekty</h2>
+            <div class="project-tabs">
+                <button class="tab-button active" data-tab="realizacje" data-i18n="projects.tab1">Realizacje</button>
+                <button class="tab-button" data-tab="projekty" data-i18n="projects.tab2">Projekty</button>
+            </div>
+        </div>
+
+        <!-- REALIZACJE TAB -->
+        <div class="tab-content active" id="realizacje">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.kompaktowa">Kuchnia kompaktowa</h3>
+                        <p class="project-card-meta">Lubań, 2025</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/realizacje/R1_1.jpg" alt="Kuchnia kompaktowa Lubań – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R1_2.jpg" alt="Kuchnia kompaktowa Lubań – widok 2" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R1_3.jpg" alt="Kuchnia kompaktowa Lubań – widok 3" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R1_4.jpg" alt="Kuchnia kompaktowa Lubań – widok 4" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.salonvip">Salon VIP</h3>
+                        <p class="project-card-meta">Kielce, 2025</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/realizacje/R2_1.jpg" alt="Salon VIP Kielce – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R2_2.jpg" alt="Salon VIP Kielce – widok 2" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.showroom">Showroom NUFENEN</h3>
+                        <p class="project-card-meta">Kielce, 2025</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/realizacje/R3_1.jpg" alt="Showroom NUFENEN Kielce – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R3_2.jpg" alt="Showroom NUFENEN Kielce – widok 2" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R3_3.jpg" alt="Showroom NUFENEN Kielce – widok 3" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.stylizowana">Kuchnia stylizowana</h3>
+                        <p class="project-card-meta">Ujazd, 2025</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/realizacje/R4_1.jpg" alt="Kuchnia stylizowana Ujazd – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R4_2.jpg" alt="Kuchnia stylizowana Ujazd – widok 2" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R4_3.jpg" alt="Kuchnia stylizowana Ujazd – widok 3" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R4_4.jpg" alt="Kuchnia stylizowana Ujazd – widok 4" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R4_5.jpg" alt="Kuchnia stylizowana Ujazd – widok 5" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R4_6.jpg" alt="Kuchnia stylizowana Ujazd – widok 6" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R4_7.jpg" alt="Kuchnia stylizowana Ujazd – widok 7" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R4_8.jpg" alt="Kuchnia stylizowana Ujazd – widok 8" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R4_9.jpg" alt="Kuchnia stylizowana Ujazd – widok 9" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.zabudowadrzwi">Zabudowa mieszkania ze stolarką drzwiową</h3>
+                        <p class="project-card-meta">Ujazd, 2024</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/realizacje/R5_1.jpg" alt="Zabudowa mieszkania Ujazd – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_2.jpg" alt="Zabudowa mieszkania Ujazd – widok 2" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_3.jpg" alt="Zabudowa mieszkania Ujazd – widok 3" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_4.jpg" alt="Zabudowa mieszkania Ujazd – widok 4" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_5.jpg" alt="Zabudowa mieszkania Ujazd – widok 5" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_6.jpg" alt="Zabudowa mieszkania Ujazd – widok 6" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_7.jpg" alt="Zabudowa mieszkania Ujazd – widok 7" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_8.jpg" alt="Zabudowa mieszkania Ujazd – widok 8" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_9.jpg" alt="Zabudowa mieszkania Ujazd – widok 9" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_10.jpg" alt="Zabudowa mieszkania Ujazd – widok 10" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_11.jpg" alt="Zabudowa mieszkania Ujazd – widok 11" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_12.jpg" alt="Zabudowa mieszkania Ujazd – widok 12" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_13.jpg" alt="Zabudowa mieszkania Ujazd – widok 13" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_14.jpg" alt="Zabudowa mieszkania Ujazd – widok 14" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_15.jpg" alt="Zabudowa mieszkania Ujazd – widok 15" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_16.jpg" alt="Zabudowa mieszkania Ujazd – widok 16" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_17.jpg" alt="Zabudowa mieszkania Ujazd – widok 17" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R5_18.jpg" alt="Zabudowa mieszkania Ujazd – widok 18" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.recepcja">Recepcja kancelarii adwokackiej</h3>
+                        <p class="project-card-meta">Opole, 2024</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/realizacje/R6_1.jpg" alt="Recepcja kancelarii Opole – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R6_2.jpg" alt="Recepcja kancelarii Opole – widok 2" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R6_3.jpg" alt="Recepcja kancelarii Opole – widok 3" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R6_4.jpg" alt="Recepcja kancelarii Opole – widok 4" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R6_5.jpg" alt="Recepcja kancelarii Opole – widok 5" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.przedpokoj">Zabudowa przedpokoju</h3>
+                        <p class="project-card-meta">Turawa, 2024</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/realizacje/R7_1.jpg" alt="Zabudowa przedpokoju Turawa – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R7_2.jpg" alt="Zabudowa przedpokoju Turawa – widok 2" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.klasyczna">Kuchnia klasyczna z zabudową holu</h3>
+                        <p class="project-card-meta">Opole, 2024</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/realizacje/R8_1.jpg" alt="Kuchnia klasyczna Opole – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R8_2.jpg" alt="Kuchnia klasyczna Opole – widok 2" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R8_3.jpg" alt="Kuchnia klasyczna Opole – widok 3" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R8_4.jpg" alt="Kuchnia klasyczna Opole – widok 4" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R8_5.jpg" alt="Kuchnia klasyczna Opole – widok 5" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R8_6.jpg" alt="Kuchnia klasyczna Opole – widok 6" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.standard">Kuchnia standard</h3>
+                        <p class="project-card-meta">Zielona Góra, 2025</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/realizacje/R9_1.jpg" alt="Kuchnia standard Zielona Góra – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R9_2.jpg" alt="Kuchnia standard Zielona Góra – widok 2" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R9_3.jpg" alt="Kuchnia standard Zielona Góra – widok 3" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.lazienka">Łazienka</h3>
+                        <p class="project-card-meta">Kielce, 2025</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/realizacje/R10_1.jpg" alt="Łazienka Kielce – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/realizacje/R10_2.jpg" alt="Łazienka Kielce – widok 2" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJEKTY TAB -->
+        <div class="tab-content" id="projekty">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.kaszmir">Mieszkanie z kaszmirem</h3>
+                        <p class="project-card-meta">Gliwice, 2025</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/projekty/P1_1.jpg" alt="Mieszkanie z kaszmirem Gliwice – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P1_2.jpg" alt="Mieszkanie z kaszmirem Gliwice – widok 2" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P1_3.jpg" alt="Mieszkanie z kaszmirem Gliwice – widok 3" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P1_4.jpg" alt="Mieszkanie z kaszmirem Gliwice – widok 4" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P1_15.jpg" alt="Mieszkanie z kaszmirem Gliwice – widok 5" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P1_16.jpg" alt="Mieszkanie z kaszmirem Gliwice – widok 6" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P1_17.jpg" alt="Mieszkanie z kaszmirem Gliwice – widok 7" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P1_18.jpg" alt="Mieszkanie z kaszmirem Gliwice – widok 8" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P1_19.jpg" alt="Mieszkanie z kaszmirem Gliwice – widok 9" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P1_20.jpg" alt="Mieszkanie z kaszmirem Gliwice – widok 10" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P1_21.jpg" alt="Mieszkanie z kaszmirem Gliwice – widok 11" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.nowoczesna">Kuchnia nowoczesna</h3>
+                        <p class="project-card-meta">Utrecht, 2025</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/projekty/P2_1.jpg" alt="Kuchnia nowoczesna Utrecht – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P2_2.jpg" alt="Kuchnia nowoczesna Utrecht – widok 2" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.wejscie">Zabudowa wejścia</h3>
+                        <p class="project-card-meta">Opole, 2025</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/projekty/P3_1.jpg" alt="Zabudowa wejścia Opole – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P3_2.jpg" alt="Zabudowa wejścia Opole – widok 2" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.nagotowo">Mieszkanie na gotowo</h3>
+                        <p class="project-card-meta">Gliwice, 2025</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/projekty/P4_1.jpg" alt="Mieszkanie na gotowo Gliwice – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P4_2.jpg" alt="Mieszkanie na gotowo Gliwice – widok 2" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P4_3.jpg" alt="Mieszkanie na gotowo Gliwice – widok 3" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P4_4.jpg" alt="Mieszkanie na gotowo Gliwice – widok 4" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P4_5.jpg" alt="Mieszkanie na gotowo Gliwice – widok 5" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P4_6.jpg" alt="Mieszkanie na gotowo Gliwice – widok 6" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P4_7.jpg" alt="Mieszkanie na gotowo Gliwice – widok 7" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P4_8.jpg" alt="Mieszkanie na gotowo Gliwice – widok 8" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P4_9.jpg" alt="Mieszkanie na gotowo Gliwice – widok 9" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P4_10.jpg" alt="Mieszkanie na gotowo Gliwice – widok 10" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.dompremium">Dom premium</h3>
+                        <p class="project-card-meta">Ujazd, 2025</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/projekty/P6_1.jpg" alt="Dom premium Ujazd – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P6_2.jpg" alt="Dom premium Ujazd – widok 2" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P6_3.jpg" alt="Dom premium Ujazd – widok 3" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P6_4.jpg" alt="Dom premium Ujazd – widok 4" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P6_5.jpg" alt="Dom premium Ujazd – widok 5" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <h3 data-i18n="proj.sypialnia">Sypialnia</h3>
+                        <p class="project-card-meta">Sulechów, 2025</p>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/projekty/P7_1.jpg" alt="Sypialnia Sulechów – widok 1" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P7_2.jpg" alt="Sypialnia Sulechów – widok 2" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P7_3.jpg" alt="Sypialnia Sulechów – widok 3" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P7_4.jpg" alt="Sypialnia Sulechów – widok 4" loading="lazy"></div>
+                                <div class="swiper-slide"><img src="images/projekty/P7_5.jpg" alt="Sypialnia Sulechów – widok 5" loading="lazy"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHOWROOMS SECTION -->
+    <section class="showrooms-section" id="showrooms">
+        <div class="showrooms-header">
+            <h2 data-i18n="show.title">Nasze salony</h2>
+            <p data-i18n="show.subtitle">Odwiedź nas i zobacz nasze meble na żywo</p>
+        </div>
+
+        <div class="showrooms-grid">
+            <div class="showroom-card">
+                <!-- UWAGA: Wygeneruj prawdziwy embed na maps.google.com → Share → Embed a map -->
+                <iframe
+                    class="showroom-map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.0!2d20.6423!3d50.8758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4718263e5be0f769%3A0x6f9b2dfb0a3c2a8!2sJagiello%C5%84ska%2025%2C%2025-734%20Kielce!5e0!3m2!1spl!2spl!4v1700000000000!5m2!1spl!2spl"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Lokalizacja salonu NUFENEN w Kielcach">
+                </iframe>
+                <div class="showroom-info">
+                    <span class="showroom-badge" data-i18n="show.badge">Już otwarty</span>
+                    <h3 data-i18n="show.kielce">Salon Kielce</h3>
+                    <div class="showroom-address">
+                        <p><strong>NUFENEN Showroom</strong></p>
+                        <p>Jagiellońska 25</p>
+                        <p>25-608 Kielce</p>
+                    </div>
+                    <div class="showroom-contact">
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <a href="tel:+48539754314">+48 539 754 314</a>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <a href="mailto:michal.borowiec@nufenen.pl">michal.borowiec@nufenen.pl</a>
+                        </div>
+                    </div>
+                    <div class="showroom-hours">
+                        <p><strong data-i18n="show.hours">Godziny otwarcia:</strong></p>
+                        <p data-i18n="show.weekdays">Pon – Pt: 13:00 – 19:00</p>
+                        <p data-i18n="show.saturday">Sob: 10:00 – 18:00</p>
+                        <p data-i18n="show.sunday">Niedz: Zamknięte</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="future-showrooms">
+            <h3 data-i18n="show.future.title">Planowane otwarcia salonów</h3>
+            <p style="color: var(--color-text-gray); margin-bottom: 2rem;" data-i18n="show.future.subtitle">Już wkrótce będziemy bliżej Ciebie</p>
+            <div class="future-locations">
+                <div class="future-location">
+                    <strong data-i18n="show.future.second">Drugie otwarcie</strong><br>
+                    <small>Q2 2026</small>
+                </div>
+                <div class="future-location">
+                    <strong data-i18n="show.future.third">Trzecie otwarcie</strong><br>
+                    <small>Q4 2026</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+    <section class="reviews-links-section">
+        <div class="reviews-links-content">
+            <h2 data-i18n="reviews.title">Co mówią nasi klienci</h2>
+            <p data-i18n="reviews.subtitle">Sprawdź nasze opinie na Google</p>
+            <div class="reviews-links-buttons">
+                <a href="https://share.google/Om8Yl7uz5yyGfrbQi" target="_blank" rel="noopener noreferrer" class="review-link-btn" data-i18n-html="reviews.opole">
+                    <span class="google-icon">⭐</span>
+                    Opinie – NUFENEN Opole
+                </a>
+                <a href="https://share.google/iSwRcZ71gzIRSW2su" target="_blank" rel="noopener noreferrer" class="review-link-btn" data-i18n-html="reviews.kielce">
+                    <span class="google-icon">⭐</span>
+                    Opinie – Salon Kielce
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner.forma Section -->
+    <section class="partner-forma-section" id="partner-forma">
+        <div class="partner-forma-content">
+            <div class="partner-forma-header">
+                <span class="partner-forma-badge" data-i18n-html="partner.badge">Dla Architektów &amp; Projektantów</span>
+                <h2>PARTNER.forma</h2>
+                <p data-i18n="partner.intro">Program współpracy stworzony dla profesjonalistów, którzy stawiają na jakość. Dołącz do sieci partnerów NUFENEN i rozwijaj swój biznes z zaufanym producentem mebli premium.</p>
+            </div>
+
+            <div class="partner-benefits-grid">
+                <div class="partner-benefit-card">
+                    <span class="benefit-icon">🎯</span>
+                    <h3 data-i18n="partner.b1.title">Segment Premium</h3>
+                    <p data-i18n="partner.b1.text">Pracujemy z klientami, którzy cenią jakość ponad cenę. Twoi klienci docenią poziom wykonania — okucia Blum, maszyny HOMAG i OTT, perfekcyjne wykończenie.</p>
+                </div>
+                <div class="partner-benefit-card">
+                    <span class="benefit-icon">⚡</span>
+                    <h3 data-i18n="partner.b2.title">Szybka realizacja</h3>
+                    <p data-i18n="partner.b2.text">Wycena do 24h. Produkcja 6–8 tygodni. Terminowość gwarantowana. Nie musisz się martwić o realizację — skupisz się na projektowaniu, my zajmiemy się resztą.</p>
+                </div>
+                <div class="partner-benefit-card">
+                    <span class="benefit-icon">🤝</span>
+                    <h3 data-i18n="partner.b3.title">Pełne wsparcie</h3>
+                    <p data-i18n="partner.b3.text">Dedykowana linia telefoniczna, osobisty opiekun projektu, pomoc w pomiarach i audytach technicznych. Rozwiązujemy problemy konstrukcyjne i wspieramy podczas montażu.</p>
+                </div>
+            </div>
+
+            <div class="partner-support-list">
+                <h3 data-i18n="partner.support.title">Kompleksowe wsparcie na każdym etapie</h3>
+                <div class="support-columns">
+                    <div class="support-column">
+                        <ul>
+                            <li data-i18n="partner.li.1">Dedykowana linia telefoniczna</li>
+                            <li data-i18n="partner.li.2">Osobisty opiekun projektu</li>
+                            <li data-i18n="partner.li.3">Pomoc w pomiarach i audytach</li>
+                            <li data-i18n="partner.li.4">Rozwiązywanie problemów konstrukcyjnych</li>
+                            <li data-i18n="partner.li.5">Wsparcie podczas montażu</li>
+                        </ul>
+                    </div>
+                    <div class="support-column">
+                        <ul>
+                            <li data-i18n="partner.li.6">Dostęp do sieci kontaktów (stolarze, lakiernicy, szklarze, kamieniarze)</li>
+                            <li data-i18n="partner.li.7">Baza zaufanych monterów w różnych regionach</li>
+                            <li data-i18n="partner.li.8">Polecenia innych projektantów z naszej sieci</li>
+                            <li data-i18n="partner.li.9">Materiały marketingowe i katalogi</li>
+                        </ul>
+                    </div>
+                    <div class="support-column">
+                        <ul>
+                            <li data-i18n="partner.li.10">Próbki materiałów i okuć do prezentacji</li>
+                            <li data-i18n="partner.li.11">Referencje i case studies</li>
+                            <li data-i18n="partner.li.12">Pomoc w organizacji transportu</li>
+                            <li data-i18n="partner.li.13">Koordynacja z innymi wykonawcami</li>
+                            <li data-i18n="partner.li.14">Konsultacje techniczne i ergonomiczne</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="partner-cta-box">
+                <h3 data-i18n="partner.cta.title">Zacznijmy współpracę</h3>
+                <p data-i18n="partner.cta.text">Korzyści od pierwszego dnia. Bez ukrytych kosztów. Partnerstwo oparte na zaufaniu i jakości.</p>
+                <a href="mailto:mateusz@nufenen.pl" class="partner-cta-button" data-i18n="partner.cta.button">Zostań Partnerem</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="cta-content">
+            <h2 data-i18n="cta.title">Zrealizujmy Twój projekt</h2>
+            <p data-i18n="cta.text">Darmowa wycena w 24h. Profesjonalne doradztwo. Terminowa realizacja. Skontaktuj się z nami — chętnie opowiemy o możliwościach.</p>
+            <a href="mailto:biuro@nufenen.pl" class="cta-button" data-i18n="cta.button">Napisz do nas</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>NUFENEN INTERIORS</h3>
+                <p data-i18n="footer.tagline">Meble Premium na Wymiar</p>
+            </div>
+            <div class="footer-company">
+                <h4 data-i18n="footer.company">Dane rejestracyjne</h4>
+                <p>nufenen.interiors Mateusz Kurpias</p>
+                <p>ul. Grunwaldzka 9</p>
+                <p>45-054 Opole</p>
+                <p>NIP: 7542816285</p>
+                <p>REGON: 388114190</p>
+            </div>
+            <div class="footer-contact">
+                <h4 data-i18n="footer.contact">Kontakt</h4>
+                <p>Email: <a href="mailto:biuro@nufenen.pl">biuro@nufenen.pl</a></p>
+                <p>Tel: <a href="tel:+48539754306">+48 539 754 306</a></p>
+                <p><a href="https://www.nufenen.pl" target="_blank" rel="noopener noreferrer">www.nufenen.pl</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer.rights">© 2020–2026 NUFENEN INTERIORS · Wszystkie prawa zastrzeżone</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
